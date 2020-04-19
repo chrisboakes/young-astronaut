@@ -35,7 +35,13 @@
 	}
 
 	.social__item {
-		margin-right: 20px;
+		margin-right: 15px;
+	}
+
+	@media (min-width: 768px) {
+		.social__item {
+			margin-right: 20px;
+		}
 	}
 
 	.social__item:last-child {

@@ -7,11 +7,14 @@
 		margin-bottom: 5px;
 	}
 
+	.recordings {
+		margin: 20px 0 0 0;
+	}
+
 	@media (min-width: 768px) {
 		.recordings {
 			display: flex;
 			justify-content: center;
-			margin: 20px 0 0 0;
 		}
 	}
 
