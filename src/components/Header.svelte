@@ -72,7 +72,7 @@
 
 	<div class="descriptions">
 		<p>Indie band with two full length albums:<br /><em>Fawn</em> and <em>A Gold Frontier</em></p>
-		<p>New E.P. coming 2020</p>
+		<p>Piroutte &amp; Fall coming early 2022</p>
 	</div>
 
 	<ul class="social__items-wrap">
