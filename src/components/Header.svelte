@@ -1,160 +1,126 @@
+<script>
+	import Socials from '../components/Socials.svelte';
+</script>
+
 <style>
-	header {
-		display: block;
-		padding: 40px 20px 20px;
-	}
-
-	h1 {
-		fill: #fff;
-		height: 150px;
-		margin: 0 auto;
-		width: 150px;
-	}
-
-	.logo {
-		fill: #fff;
-		height: 100%;
+	.header-wrapper {
+		height: 300px;
+		padding-bottom: 140px;
+		position: relative;
 		width: 100%;
 	}
 
-	.descriptions {
-		margin: 10px 0;
-	}
-
-	p {
-		color: #fff;
-		font-family: 'Courier New', Courier, monospace;
-		padding: 0;
+	header {
+		display: block;
 		text-align: center;
+		width: 100%;
 	}
 
-	.social__items-wrap {
-		margin-top: 20px;
-		justify-content: center;
-		display: flex;
+	h1 {
+		color: var(--light);
+		font-size: 1rem;
+		letter-spacing: .5rem;
+		text-transform: uppercase;
 	}
 
-	.social__item {
-		margin-right: 15px;
+	.header-image {
+		height: 350px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+	}
+
+	.header-image img {
+		object-fit: cover;
+		height: 350px;
+		width: 100%;
+	}
+
+	.header-content {
+		padding-top: 40px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.socials {
+		padding-top: 320px;
 	}
 
 	@media (min-width: 768px) {
-		.social__item {
-			margin-right: 20px;
+		.header-wrapper {
+			height: 500px;
+			grid-column: span 12;
+		}
+
+		.header-content {
+			padding-left: 40px;
+			padding-right: 40px;
+			width: calc(100% - 40px);
+		}
+
+		.socials {
+			grid-column: 7/12;
+			grid-row: 1;
+			padding-top: 0;
+		}
+
+		header {
+			grid-column: 1/12;
+			grid-row: 1;
+			text-align: left;
+		}
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		.header-image {
+			height: 500px;
+		}
+
+		.header-image img {
+			height: 500px;
 		}
 	}
 
-	.social__item:last-child {
-		margin-right: 0;
-	}
+	@media (min-width: 1024px) {
+		.header-content {
+			padding-left: 0;
+			padding-right: 0;
+		}
 
-	.social__svg {
-		fill: #fff;
-		max-width: 30px;
-		height: 30px;
-	}
+		header {
+			grid-column: 2/12;
+		}
 
-	.social__item-link:hover .social__svg {
-		fill: #fff;
+		.socials {
+			grid-column: 7/12;
+		}
 	}
 </style>
 
-<div>
-	<header>
-		<h1>
-			<span class="u-visually-hidden">Young Astronaut</span>
-			<svg class="logo">
-				<title>Young Astronaut</title>
-				<use xlink:href='#shape-logo'></use>
-			</svg>
-		</h1>
-	</header>
+<div class="header-wrapper">
+	<div class="grid header-content">
+		<header>
+			<h1>Young Astronaut</h1>
+		</header>
 
-	<div class="descriptions">
-		<p>Indie band with two full length albums:<br /><em>Fawn</em> and <em>A Gold Frontier</em></p>
-		<p>Piroutte &amp; Fall coming early 2022</p>
+		<div class="socials">
+			<Socials />
+		</div>
 	</div>
 
-	<ul class="social__items-wrap">
-		<li class="social__item">
-			<a href="https://www.facebook.com/youngastronautband" class="social__item-link" rel="noopener nofollow" aria-label="Visit the Young Astronaut Facebook page">
-				<span class="u-visually-hidden">
-					Facebook
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-facebook'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="https://twitter.com/yastronaut" class="social__item-link" rel="noopener nofollow" aria-label="Visit the Young Astronaut Twitter page">
-				<span class="u-visually-hidden">
-					Twitter
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-twitter'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="http://instagram.com/youngastronautband/" class="social__item-link" rel="noopener nofollow" aria-label="Visit the Young Astronaut Instagram page">
-				<span class="u-visually-hidden">
-					Instagram
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-instagram'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="https://www.youtube.com/user/youngastronautband" class="social__item-link" rel="noopener nofollow" aria-label="Visit the Young Astronaut YouTube page">
-				<span class="u-visually-hidden">
-					YouTube
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-youtube'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="https://soundcloud.com/young-astronaut/" class="social__item-link" rel="noopener nofollow" aria-label="Listen to Young Astronaut on Soundcloud">
-				<span class="u-visually-hidden">
-					Soundcloud
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-soundcloud'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="http://open.spotify.com/artist/5mWvB7w84pPL7h2xXWuxaQ" class="social__item-link" rel="noopener nofollow" aria-label="Listen to Young Astronaut on Spotify">
-				<span class="u-visually-hidden">
-					Spotify
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-spotify'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="https://itunes.apple.com/gb/artist/young-astronaut/id489444596" class="social__item-link" rel="noopener nofollow" aria-label="Listen to Young Astronaut on Apple Music">
-				<span class="u-visually-hidden">
-					Apple Music
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-itunes'></use>
-				</svg>
-			</a>
-		</li>
-		<li class="social__item">
-			<a href="mailto:youngastronautband@gmail.com" class="social__item-link" rel="noopener nofollow" aria-label="Email Young Astronaut">
-				<span class="u-visually-hidden">
-					Email
-				</span>
-				<svg class="social__svg">
-					<use xlink:href='#shape-email'></use>
-				</svg>
-			</a>
-		</li>
-	</ul>
+	<picture class="header-image">
+		<source srcset="/young-astronaut-band.jpg"
+				media="(min-width: 768px)">
+		<source srcset="/young-astronaut-band-mobile.jpg"
+				media="(min-width: 0px)">
+		<img src="/young-astronaut-band.jpg"
+			alt="Young Astronaut Band"
+			width="1200"
+			height="500"
+		/>
+	</picture>
 </div>
