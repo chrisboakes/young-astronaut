@@ -4,8 +4,8 @@
 
 <style>
 	.header-wrapper {
-		height: 300px;
-		padding-bottom: 140px;
+		height: 350px;
+		margin-bottom: 80px;
 		position: relative;
 		width: 100%;
 	}
@@ -20,7 +20,8 @@
 		color: var(--light);
 		font-size: 1rem;
 		letter-spacing: .5rem;
-		text-transform: uppercase;
+		line-height: 1.2;
+		margin: 0;
 	}
 
 	.header-image {
@@ -45,7 +46,7 @@
 	}
 
 	.socials {
-		padding-top: 320px;
+		padding-top: 315px;
 	}
 
 	@media (min-width: 768px) {
@@ -74,6 +75,7 @@
 
 		h1 {
 			font-size: 1.5rem;
+			text-align: left;
 		}
 
 		.header-image {
