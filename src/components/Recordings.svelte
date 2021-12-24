@@ -7,10 +7,6 @@
 	.recording__image {
 		width: 100%;
 	}
-	
-	.recording__title-wrapper {
-		
-	}
 
 	.recording__title {
 		text-align: left;
@@ -39,56 +35,122 @@
 		align-items: center;
 		display: flex;
 	}
+
+	@media (min-width: 768px) {
+		.recording {
+			align-items: center;
+			display: grid;
+			grid-column: span 12;
+			grid-template-columns: repeat(12, 1fr);
+		}
+
+		.recording__image {
+			grid-column: 2/6;
+		}
+
+		.recording__content {
+			grid-column: 7/12;
+		}
+
+		.recording__title {
+			margin-top: 0;
+		}
+
+		.recording__links {
+			margin-bottom: 0;
+		}
+
+		.recording--reverse .recording__image {
+			grid-column: 8/12;
+			grid-row: 1;
+		}
+
+		.recording--reverse .recording__content {
+			grid-column: 2/7;
+			grid-row: 1;
+			text-align: right;
+		}
+
+		.recording--reverse .recording__title {
+			text-align: right;
+		}
+
+		.recording--reverse .recording__links li {
+			display: inline-block;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.recording__image {
+			grid-column: 2/5;
+		}
+
+		.recording__content {
+			grid-column: 6/10;
+		}
+
+		.recording--reverse .recording__image {
+			grid-column: 9/12;
+		}
+
+		.recording--reverse .recording__content {
+			grid-column: 5/8;
+		}
+	}
 </style>
 
 <article class="recording">
 	<img class="recording__image" src="/young-astronaut-a-gold-frontier.jpg" alt="Young Astronaut - A Gold Frontier album cover" />
-	<header class="recording__title-wrapper">
-		<h3 class="recording__title">A Gold Frontier</h3>
-	</header>
-	<p class="recording__description">Our sophomore release featuring singles "Chasing El Dorado", "The Old Cool" &amp; "The Chronicles of Fall & Glory"</p>
-	<ul class="recording__links">
-		<li>
-			<a href="https://open.spotify.com/album/27t2gkNPkfcQqUa5kCLCnI" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
-				<svg>
-					<use xlink:href='#shape-spotify'></use>
-				</svg>
-				<span>Listen on Spotify</span>
-			</a>
-		</li>
-		<li>
-			<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
-				<svg>
-					<use xlink:href='#shape-itunes'></use>
-				</svg>
-				<span>Listen on Apple Music</span>
-			</a>
-		</li>
-	</ul>
+	<div class="recording__content">
+		<header>
+			<h3 class="recording__title">A Gold Frontier</h3>
+		</header>
+		<p class="recording__description">Our sophomore release featuring singles "Chasing El Dorado", "The Old Cool" &amp; "The Chronicles of Fall & Glory"</p>
+		<ul class="recording__links">
+			<li>
+				<a href="https://open.spotify.com/album/27t2gkNPkfcQqUa5kCLCnI" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
+					<svg>
+						<use xlink:href='#shape-spotify'></use>
+					</svg>
+					<span>Listen on Spotify</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
+					<svg>
+						<use xlink:href='#shape-itunes'></use>
+					</svg>
+					<span>Listen on Apple Music</span>
+				</a>
+			</li>
+		</ul>
+	</div>
 </article>
 
-<article class="recording">
+<article class="recording recording--reverse">
 	<img class="recording__image" src="/young-astronaut-fawn.jpg" alt="Young Astronaut - Fawn album cover" />
-	<header class="recording__title-wrapper">
-		<h3 class="recording__title">Fawn</h3>
-	</header>
-	<p class="recording__description">Our debut album featuring singles "Triumph" &amp; "Hey Little Ghost"</p>
-	<ul class="recording__links">
-		<li>
-			<a href="https://open.spotify.com/album/38Bbfb5UWKJOVbudjIrirE" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
-				<svg>
-					<use xlink:href='#shape-spotify'></use>
-				</svg>
-				<span>Listen on Spotify</span>
-			</a>
-		</li>
-		<li>
-			<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
-				<svg>
-					<use xlink:href='#shape-itunes'></use>
-				</svg>
-				<span>Listen on Apple Music</span>
-			</a>
-		</li>
-	</ul>
+	<div class="recording__content">
+		<header>
+			<h3 class="recording__title">Fawn</h3>
+		</header>
+		<p class="recording__description">Our debut album featuring singles "Triumph" &amp; "Hey Little Ghost"</p>
+		<ul class="recording__links">
+			<li>
+				<a href="https://open.spotify.com/album/38Bbfb5UWKJOVbudjIrirE" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
+					<svg>
+						<use xlink:href='#shape-spotify'></use>
+					</svg>
+					<span>Listen on Spotify</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
+					<svg>
+						<use xlink:href='#shape-itunes'></use>
+					</svg>
+					<span>Listen on Apple Music</span>
+				</a>
+			</li>
+		</ul>
+	</div>
 </article>
