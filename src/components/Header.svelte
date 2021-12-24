@@ -95,6 +95,10 @@
 			grid-column: 2/12;
 		}
 
+		h1 {
+			font-size: 1.9rem;
+		}
+
 		.socials {
 			grid-column: 7/12;
 		}
