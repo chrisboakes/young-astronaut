@@ -1,106 +1,94 @@
 <style>
-	h3 {
-		color: #fff;
+	.recording {
+		display: flex;
+		flex-direction: column;
 	}
 
-	p {
-		margin-bottom: 5px;
+	.recording__image {
+		width: 100%;
+	}
+	
+	.recording__title-wrapper {
+		
 	}
 
-	.recordings {
-		margin: 20px 0 0 0;
+	.recording__title {
+		text-align: left;
 	}
 
-	@media (min-width: 768px) {
-		.recordings {
-			display: flex;
-			justify-content: center;
-		}
+	.recording__description {
+		margin-bottom: 20px;
 	}
 
-	article {
-		padding-bottom: 20px;
-		margin: 0 auto;
-		width: 300px;
+	.recording__links {
+		margin-bottom: 30px;
 	}
 
-	@media (min-width: 768px) {
-		article {
-			margin: 0;
-		}
-
-		article:first-child {
-			margin-right: 20px;
-		}
-	}
-
-	article svg {
+	.recording__links svg {
 		fill: #fff;
 		margin-right: 10px;
 		max-width: 20px;
 		height: 20px;
 	}
 
-	article li {
+	.recording__links li {
 		margin-bottom: 5px;
 	}
 
-	article li a {
+	.recording__links li a {
 		align-items: center;
 		display: flex;
 	}
 </style>
 
-<div class="recordings">
-	<article>
-		<img src="/young-astronaut-a-gold-frontier.jpg" alt="Young Astronaut - A Gold Frontier album cover" />
-		<header>
-			<h3>A Gold Frontier</h3>
-			<p>Listen on:</p>
-			<ul>
-				<li>
-					<a href="https://open.spotify.com/album/27t2gkNPkfcQqUa5kCLCnI" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
-						<svg>
-							<use xlink:href='#shape-spotify'></use>
-						</svg>
-						<span>Spotify</span>
-					</a>
-				</li>
-				<li>
-					<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
-						<svg>
-							<use xlink:href='#shape-itunes'></use>
-						</svg>
-						<span>Apple Music</span>
-					</a>
-				</li>
-			</ul>
-		</header>
-	</article>
+<article class="recording">
+	<img class="recording__image" src="/young-astronaut-a-gold-frontier.jpg" alt="Young Astronaut - A Gold Frontier album cover" />
+	<header class="recording__title-wrapper">
+		<h3 class="recording__title">A Gold Frontier</h3>
+	</header>
+	<p class="recording__description">Our sophomore release featuring singles "Chasing El Dorado", "The Old Cool" &amp; "The Chronicles of Fall & Glory"</p>
+	<ul class="recording__links">
+		<li>
+			<a href="https://open.spotify.com/album/27t2gkNPkfcQqUa5kCLCnI" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
+				<svg>
+					<use xlink:href='#shape-spotify'></use>
+				</svg>
+				<span>Listen on Spotify</span>
+			</a>
+		</li>
+		<li>
+			<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
+				<svg>
+					<use xlink:href='#shape-itunes'></use>
+				</svg>
+				<span>Listen on Apple Music</span>
+			</a>
+		</li>
+	</ul>
+</article>
 
-	<article>
-		<img src="/young-astronaut-fawn.jpg" alt="Young Astronaut - Fawn album cover" />
-		<header>
-			<h3>Fawn</h3>
-			<p>Listen on:</p>
-			<ul>
-				<li>
-					<a href="https://open.spotify.com/album/38Bbfb5UWKJOVbudjIrirE" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
-						<svg>
-							<use xlink:href='#shape-spotify'></use>
-						</svg>
-						<span>Spotify</span>
-					</a>
-				</li>
-				<li>
-					<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
-						<svg>
-							<use xlink:href='#shape-itunes'></use>
-						</svg>
-						<span>Apple Music</span>
-					</a>
-				</li>
-			</ul>
-		</header>
-	</article>
-</div>
+<article class="recording">
+	<img class="recording__image" src="/young-astronaut-fawn.jpg" alt="Young Astronaut - Fawn album cover" />
+	<header class="recording__title-wrapper">
+		<h3 class="recording__title">Fawn</h3>
+	</header>
+	<p class="recording__description">Our debut album featuring singles "Triumph" &amp; "Hey Little Ghost"</p>
+	<ul class="recording__links">
+		<li>
+			<a href="https://open.spotify.com/album/38Bbfb5UWKJOVbudjIrirE" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
+				<svg>
+					<use xlink:href='#shape-spotify'></use>
+				</svg>
+				<span>Listen on Spotify</span>
+			</a>
+		</li>
+		<li>
+			<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
+				<svg>
+					<use xlink:href='#shape-itunes'></use>
+				</svg>
+				<span>Listen on Apple Music</span>
+			</a>
+		</li>
+	</ul>
+</article>

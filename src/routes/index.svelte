@@ -9,8 +9,8 @@
 	<meta name="description" content="Music, news, videos and merchandise from British indie band Young Astronaut.">
 </svelte:head>
 
-<Biography />
+<Recordings />
 
-<!-- <Recordings /> -->
+<Biography />
 
 <!-- <Videos /> -->
