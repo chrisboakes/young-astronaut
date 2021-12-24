@@ -51,8 +51,9 @@
 
 	@media (min-width: 768px) {
 		.header-wrapper {
-			height: 500px;
 			grid-column: span 12;
+			height: 500px;
+			margin-bottom: 0;
 		}
 
 		.header-content {

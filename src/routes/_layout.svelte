@@ -26,12 +26,10 @@
 	</symbol>
 </svg>
 
-<div class="grid">
-
+<div class="grid grid--no-padding">
 	<Header />
-
-	<main>
-		<slot></slot>
-	</main>
-
 </div>
+
+<main class="grid">
+	<slot></slot>
+</main>
