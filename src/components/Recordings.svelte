@@ -40,8 +40,13 @@
 		.recording {
 			align-items: center;
 			display: grid;
+			margin-top: 50px;
 			grid-column: span 12;
 			grid-template-columns: repeat(12, 1fr);
+		}
+
+		.recording--reverse {
+			margin-top: 20px;
 		}
 
 		.recording__image {
@@ -81,6 +86,14 @@
 	}
 
 	@media (min-width: 1024px) {
+		.recording {
+			margin-top: 80px;
+		}
+
+		.recording--reverse {
+			margin-top: 30px;
+		}
+
 		.recording__image {
 			grid-column: 2/5;
 		}

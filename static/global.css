@@ -84,11 +84,14 @@ code {
 }
 
 .grid {
+	margin: 0 auto;
+	max-width: 400px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
 .grid--no-padding {
+	max-width: none;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -97,6 +100,7 @@ code {
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
+		max-width: none;
 		padding-left: 0;
 		padding-right: 0;
 		width: 100%;
