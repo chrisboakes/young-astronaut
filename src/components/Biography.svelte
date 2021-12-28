@@ -8,6 +8,10 @@
             margin-top: 80px;
             grid-column: 3/11;
         }
+
+        h2 {
+            margin-bottom: 40px;
+        }
     }
 
     @media (min-width: 1024px) {
