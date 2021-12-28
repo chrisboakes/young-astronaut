@@ -5,6 +5,7 @@
 
     @media (min-width: 768px) {
         article {
+            margin-top: 80px;
             grid-column: 3/11;
         }
     }

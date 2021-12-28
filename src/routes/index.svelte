@@ -1,7 +1,8 @@
 <script>
 	import Recordings from '../components/Recordings.svelte';
-	import Videos from '../components/Videos.svelte';
 	import Biography from '../components/Biography.svelte';
+	import Band from '../components/Band.svelte';
+	import Videos from '../components/Videos.svelte';
 </script>
 
 <svelte:head>
@@ -12,5 +13,7 @@
 <Recordings />
 
 <Biography />
+
+<Band />
 
 <!-- <Videos /> -->
