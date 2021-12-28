@@ -2,6 +2,7 @@
 	import Recordings from '../components/Recordings.svelte';
 	import Biography from '../components/Biography.svelte';
 	import Band from '../components/Band.svelte';
+	import Social from '../components/Social-Media.svelte';
 	import Videos from '../components/Videos.svelte';
 </script>
 
@@ -15,5 +16,7 @@
 <Biography />
 
 <Band />
+
+<Social />
 
 <!-- <Videos /> -->
