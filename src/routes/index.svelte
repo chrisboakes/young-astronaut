@@ -17,6 +17,6 @@
 
 <Band />
 
-<Social />
+<Videos />
 
-<!-- <Videos /> -->
+<Social />
