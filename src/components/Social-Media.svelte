@@ -1,7 +1,7 @@
 <style>
     article {
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
 
     .social__item {
@@ -31,8 +31,26 @@
         opacity: 1;
 	}
 
+    .social__items-wrap {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     @media (min-width: 768px) {
-        
+        article {
+            margin-top: 80px;
+            grid-column: 2/12;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .social__items-wrap {
+            flex-wrap: wrap;
+            margin-top: 40px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 </style>
 
