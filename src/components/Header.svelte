@@ -106,6 +106,20 @@
 			grid-column: 7/12;
 		}
 	}
+
+	@media (min-width: 1400px) {
+		.header-wrapper {
+			height: 600px;
+		}
+
+		.header-image {
+			height: 600px;
+		}
+
+		.header-image img {
+			height: 600px;
+		}
+	}
 </style>
 
 <div class="header-wrapper">
@@ -120,6 +134,8 @@
 	</div>
 
 	<picture class="header-image">
+		<source srcset="/young-astronaut-band-large.jpg"
+				media="(min-width: 1400px)">
 		<source srcset="/young-astronaut-band.jpg"
 				media="(min-width: 768px)">
 		<source srcset="/young-astronaut-band-mobile.jpg"

@@ -100,10 +100,13 @@ code {
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		max-width: none;
-		overflow: hidden;
+		max-width: 1440px;
 		padding-left: 0;
 		padding-right: 0;
 		width: 100%;
+	}
+
+	.grid--no-padding {
+		max-width: none;
 	}
 }
