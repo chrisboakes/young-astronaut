@@ -121,7 +121,7 @@
 		<p class="recording__description">The first single from our upcoming EP "Pirouette &amp; Fall"</p>
 		<ul class="recording__links">
 			<li>
-				<a href="#" rel="noopener nofollow" aria-label="Listen to Hope on Spotify">
+				<a href="https://spoti.fi/33cSZ9G" rel="noopener nofollow" aria-label="Listen to Hope on Spotify">
 					<svg>
 						<use xlink:href='#shape-spotify'></use>
 					</svg>
@@ -129,7 +129,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#" rel="noopener nofollow" aria-label="Listen to Hope on Apple Music">
+				<a href="https://apple.co/34sRy7V" rel="noopener nofollow" aria-label="Listen to Hope on Apple Music">
 					<svg>
 						<use xlink:href='#shape-itunes'></use>
 					</svg>
