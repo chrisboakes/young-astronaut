@@ -113,6 +113,34 @@
 </style>
 
 <article class="recording">
+	<img class="recording__image" src="/young-astronaut-hope-single.jpg" alt="Young Astronaut - Hope single cover" />
+	<div class="recording__content">
+		<header>
+			<h3 class="recording__title">Hope</h3>
+		</header>
+		<p class="recording__description">The first single from our upcoming EP "Pirouette &amp; Fall"</p>
+		<ul class="recording__links">
+			<li>
+				<a href="https://spoti.fi/33cSZ9G" rel="noopener nofollow" aria-label="Listen to Hope on Spotify">
+					<svg>
+						<use xlink:href='#shape-spotify'></use>
+					</svg>
+					<span>Listen on Spotify</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://apple.co/34sRy7V" rel="noopener nofollow" aria-label="Listen to Hope on Apple Music">
+					<svg>
+						<use xlink:href='#shape-itunes'></use>
+					</svg>
+					<span>Listen on Apple Music</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</article>
+
+<article class="recording recording--reverse">
 	<img class="recording__image" src="/young-astronaut-a-gold-frontier.jpg" alt="Young Astronaut - A Gold Frontier album cover" />
 	<div class="recording__content">
 		<header>
@@ -129,7 +157,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Spotify">
+				<a href="https://music.apple.com/gb/album/a-gold-frontier/1217721159" rel="noopener nofollow" aria-label="Listen to A Gold Frontier on Apple Music">
 					<svg>
 						<use xlink:href='#shape-itunes'></use>
 					</svg>
@@ -140,7 +168,7 @@
 	</div>
 </article>
 
-<article class="recording recording--reverse">
+<article class="recording">
 	<img class="recording__image" src="/young-astronaut-fawn.jpg" alt="Young Astronaut - Fawn album cover" />
 	<div class="recording__content">
 		<header>
@@ -157,7 +185,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Spotify">
+				<a href="https://music.apple.com/jp/album/fawn/489444594" rel="noopener nofollow" aria-label="Listen to Fawn on Apple Music">
 					<svg>
 						<use xlink:href='#shape-itunes'></use>
 					</svg>
