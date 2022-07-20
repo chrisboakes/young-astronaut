@@ -113,6 +113,34 @@
 </style>
 
 <article class="recording">
+	<img class="recording__image" src="/young-astronaut-hellions-single-cover.jpg" alt="Young Astronaut - Hellions single cover" />
+	<div class="recording__content">
+		<header>
+			<h3 class="recording__title">Hellions</h3>
+		</header>
+		<p class="recording__description">The second single from our upcoming EP "Pirouette &amp; Fall"</p>
+		<ul class="recording__links">
+			<li>
+				<a href="https://spoti.fi/3DoQCOZ" rel="noopener nofollow" aria-label="Listen to Hellions on Spotify">
+					<svg>
+						<use xlink:href='#shape-spotify'></use>
+					</svg>
+					<span>Listen on Spotify</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://apple.co/3598kJm" rel="noopener nofollow" aria-label="Listen to Hellions on Apple Music">
+					<svg>
+						<use xlink:href='#shape-itunes'></use>
+					</svg>
+					<span>Listen on Apple Music</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</article>
+
+<article class="recording recording--reverse">
 	<img class="recording__image" src="/young-astronaut-hope-single.jpg" alt="Young Astronaut - Hope single cover" />
 	<div class="recording__content">
 		<header>
@@ -140,7 +168,7 @@
 	</div>
 </article>
 
-<article class="recording recording--reverse">
+<article class="recording">
 	<img class="recording__image" src="/young-astronaut-a-gold-frontier.jpg" alt="Young Astronaut - A Gold Frontier album cover" />
 	<div class="recording__content">
 		<header>
@@ -168,7 +196,7 @@
 	</div>
 </article>
 
-<article class="recording">
+<article class="recording recording--reverse">
 	<img class="recording__image" src="/young-astronaut-fawn.jpg" alt="Young Astronaut - Fawn album cover" />
 	<div class="recording__content">
 		<header>

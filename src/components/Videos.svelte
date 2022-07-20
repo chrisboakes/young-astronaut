@@ -136,6 +136,21 @@
                 <use xlink:href='#video'></use>
             </svg>
             <h4 class="video__title">
+                Hope
+            </h4>
+        </div>
+
+        <div class="video__wrapper">        
+            <iframe title="Hope" width="620" height="349" src="https://www.youtube.com/embed/bfnclcNl3-4?modestbranding=1&autohide=1&showinfo=0&controls=0&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="video">
+        <div class="video__title-wrap">
+            <svg class="video__icon">
+                <use xlink:href='#video'></use>
+            </svg>
+            <h4 class="video__title">
                 The Chronicles Of Fall &amp; Glory
             </h4>
         </div>
